@@ -1,0 +1,2132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+    }
+    
+    .main{
+        border: none;
+    }
+    
+    .nav-main{
+    background-color:#1a1a1a;
+    width:100%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    justify-content: space-evenly;
+    }
+    
+    .bose-logo{
+        width: 77px;
+        height: 77px;
+        position: relative;
+        right: 33px;
+    }
+    
+    .sub-div-1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 45px;
+    font-size: 13px; font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 60px;
+    right: 180px;
+    }
+    
+    .search{
+        width: 290px;
+        height: 25px;
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        position: relative;
+        right: 150px;
+        top: 15px;
+        border: none;
+        outline: none;
+        border-radius: 50px;
+        background-color: rgb(39, 39, 39);
+    }
+    .input-search{
+        width: 250px;
+        height: 25px;
+        position: relative;
+        left: 20px;
+        border: none;
+        background-color: rgb(39, 39, 39);
+        
+    }
+    #responsive-mr{
+        display: none;
+    }
+    .menu{
+        position: absolute;
+        z-index: 1;
+        display: none;
+    }
+    .bose-mobile-logo{
+        position: absolute;
+        z-index: 1;
+        display: none;
+        
+    }
+    .fa-magnifying-glass{
+        font-size: 18px;
+        color: black;
+       position: relative;
+       right: 10px;
+       background: none;
+    }
+    .search-button{
+        border:none;
+        background: none;
+    }
+    
+    
+    .support{
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 165px;
+        bottom: 10px;
+        font-size: 12px;
+    }
+    .support-img{
+    width: 22px;
+    margin-right: 5px;
+    display: flex;
+    }
+    .stores{
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 260px;
+        bottom: 45px;
+            font-size: 12px;
+            color: rgb(255, 255, 255);
+    }
+    .fa-location-dot{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-right: 5px;
+      
+    }
+
+
+    /* NAV-------------------------------------END[]]]]]]]====================------------- */
+       
+/* extention---------------------------------------------------------------------------------------------- */
+.nav-etention{
+    background-color:#1a1a1a;
+    width:100%;
+    height: 225px;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    display: none;
+}
+.sub-1{
+    margin-left: 260px;
+    width: 350px;
+    height: 225px;
+    background-color: #1a1a1a;
+    line-height: 25px;
+    padding-top: 30px;
+}.sub-2{
+    width: 350px;
+    height: 225px;
+    background-color: #1a1a1a;
+    line-height: 25px;
+    padding-top: 30px;
+}.sub-3{
+    width: 350px;
+    height: 225px;
+    background-color: #1a1a1a;
+    line-height: 25px;
+    padding-top: 30px;
+}
+.vertical{
+    border: none;
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 150px;
+    position: absolute;
+    left: 350px;
+    
+}
+.vertical-2{
+    border: none;
+    border-left: 2px solid rgb(247, 247, 247);
+    height: 150px;
+    position: absolute;
+    left: 700px;
+ 
+}
+.vertical-3{
+    border: none;
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 150px;
+    position: absolute;
+    left: 1050px;
+    
+}
+
+.x{
+    display: flex;
+    position: absolute;
+    
+}
+
+
+
+/* extention---------------------------------------------------------------------------------------------- */
+
+/* .open-plan-offices-main---------------------------------start---------------------------- */
+
+
+.open-plan-offices-main{
+    width: 100%;
+        height: 1150px;
+        background-color:rgb(32, 32, 32);
+        /* background-color: bisque; */
+        display: flex;
+       justify-content: center;
+}
+.open-plan-offices-sub-1{
+    width: 84%;
+    height: 1150px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.open-plan-offices-text{
+    display: flex;
+       
+    justify-content: center;
+      width: 73%;
+      height: 350px;
+      background-color:rgb(32, 32, 32);
+      flex-direction: column;
+}
+.open-plan-offices-h1{
+    margin-top:50px;
+    font-size: 46px;
+   font-weight: 400;
+   text-align: center;
+}
+.open-plan-offices-h2{
+    font-weight: 300;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+    color: rgb(68, 68, 68);
+}
+.open-plan-offices-img-div{
+    width:100%;
+    height: 530px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: rgb(19, 146, 146); */
+    overflow: hidden;
+}
+.open-plan-offices-img{
+    width: 100%;
+    object-fit: contain;
+}
+.if-you-text{
+    width: 97%;
+    height:300px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: blueviolet; */
+}
+.if-you-text-sub{
+    margin-top: 40px;
+        line-height: 25px;
+}
+p{padding: 10px;
+
+}
+
+/* .open-plan-offices-main---------------------------------end---------------------------- */
+
+/* of-course-main-----------------------------start----------------------------- */
+
+.of-course-main{
+    width: 100%;
+        height: 700px;
+        background-color:rgb(32, 32, 32);
+        /* background-color: bisque; */
+        display: flex;
+       justify-content: center;
+}
+.of-course-main-sub-1{
+    width: 84%;
+    height:700px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.of-course-main-img-div{
+    width:100%;
+    height: 530px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: rgb(19, 146, 146); */
+    overflow: hidden;
+}
+.of-course-main-img{
+    width: 100%;
+    object-fit: contain;
+}
+.of-course-main-text{
+    width: 97%;
+    height:200px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: blue; */
+}
+.of-course-main-text-sub{
+    margin-top: 40px;
+    line-height: 25px;
+}
+
+/* of-course-main----------------------------end---------------------------- */
+
+
+/* .start-by-putting-main------------------------------------------------.start----------------- */
+
+.start-by-putting-main{
+    width: 100%;
+    height: 800px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: beige; */
+    display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   flex-wrap: wrap;
+}
+.start-by-putting-sub{
+    width: 90%;
+    height: 450px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: blue; */
+    display: flex;
+}
+.start-by-putting-img-text{
+    display: flex;
+       
+          width: 100%;
+          height: 450px;
+           background-color:rgb(32, 32, 32);
+           /* background-color: blueviolet; */
+}
+.start-by-putting-img{
+    background-color:rgb(32, 32, 32);
+    /* background-color: rgb(255, 3, 200); */
+    width:52.8%;
+      height: 500px;
+      overflow: hidden;
+}
+.by-putting-img{
+    width: 100%;
+    object-fit: contain;
+}
+.start-by-putting-text{
+    background-color:rgb(32, 32, 32);
+    /* background-color: chartreuse; */
+        width: 80%;
+          height: 500px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+}
+.start-by-putting-text-p{
+    line-height: 22px;
+        margin-left: 30px;
+}
+.start-by-putting-sub-2{
+    width: 84%;
+    height: 150px;
+    background-color:rgb(32, 32, 32);
+    line-height: 25px;
+   padding-left: 30px;
+   padding-top: 90px;
+   margin-left: 7%;
+}
+
+
+/* start-by-putting----------------------------------------end  ------------------------ */
+
+
+/* .share this  -------------------------------------start 0-00---------------------------------------/ */
+
+.share-this{
+    width:100%;
+    height: 200px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+.share-this-sub{
+    width: 84%;
+    height: 200px;
+    background-color:rgb(32, 32, 32);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.logos{
+    width: 100px;
+    height: 50px;
+    background-color:rgb(32, 32, 32);
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.fa-facebook-f{
+    font-size: 25px;
+}
+.fa-twitter{
+    font-size: 25px;
+}
+.share-this-p{
+    position: absolute;
+    display: flex;
+    left: 8%;
+   margin-top: 90px;
+   font-size: 13px;
+   font-style: italic;
+}
+
+/* .share this  -------------------------------------end 0-00---------------------------------------/ */
+
+
+
+.related-products{
+    width: 100%;
+    height:600px ;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+}
+.related-products-sub{
+    width:84%;
+    height: 600px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.related-h{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    letter-spacing: 7px;
+    font-weight: 400;
+}
+.products{
+    
+    width: 100%;
+    height: 350px;
+     background-color: rgb(41, 41, 41);
+    display: flex;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 800;
+    
+}
+.product-1{
+    width: 275px;
+        height: 350px;
+        background-color: rgb(41, 41, 41);
+        
+}
+.product-2{
+    width: 275px;
+        height: 350px;
+        background-color: rgb(41, 41, 41);
+      margin-left: 4%;
+}
+.product-img{
+    width: 275px;
+    height: 300px;  
+    background-color:rgb(32, 32, 32);
+    object-fit: cover;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.para-2{
+    font-weight: 400;
+    margin-top: -20px;
+    color: rgb(63, 63, 63);
+}
+
+
+/* .related-products-----------------------------------------end--------------------------- */
+
+.related-stories{
+    width: 100%;
+    height:600px ;
+    background-color:rgb(32, 32, 32);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.related-stories-sub{
+    width: 80%;
+    height: 400px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.related-stories-h{
+   position: relative;
+   bottom: 30px;
+   letter-spacing: 7px;
+   font-weight: 400;
+}
+.related-stories-container{
+    width:48%;
+    height: 420px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.for-img{
+    width: 100%;
+    height: 270px;
+    background-color:rgb(32, 32, 32);
+    overflow: hidden;
+    
+}
+.related-stories-p{
+    font-size: 23px;
+    font-weight: 800;
+    font-family: BoseText, Verdana, sans-serif;
+}
+.explore-button{
+    width: 143px;
+            height: 38px;
+            border-radius: 50px;
+            border: 1px solid gray;
+            color: rgb(223, 223, 223);
+            background-color:#1a1a1a;
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-size: 15px;
+            margin-top: 20px;        
+}
+
+
+/* related-stories............................................................end------------ */
+
+.are-boys-points{
+    width: 100%;
+    height:300px ;
+    background-color:rgb(32, 32, 32);
+    display: flex;
+    
+}
+.are-boys-points-sub{
+    width: 100%;
+    height:300px ;
+    background-color:rgb(32, 32, 32);
+}
+.fa-square-plus{
+    margin: 3px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+
+
+
+
+/* are-----------------end-------------------------------- */
+
+.fb-etc{
+    width: 100%;
+    height: 120px;
+   
+  position: relative;
+  top: 1px;
+  padding: 20px;
+  background-color: rgb(27, 27, 27);
+}
+   
+
+             /* .fa-facebook-f{
+                color: rgb(89, 89, 89);
+                font-size: 27px;
+                margin-left: 220px;
+                margin-top: 18px;
+             }   */
+             #ooha-f{
+                color: rgb(89, 89, 89);
+                font-size: 27px;
+                margin-left: 220px;
+                margin-top: 18px;
+             }
+               
+                  
+                  .fa-youtube{
+                    color: rgb(89, 89, 89);
+                    font-size: 27px;
+                    margin-left: 30px;
+                    margin-top: 18px;
+                  }
+                      
+                    
+                      .fa-envelope{
+                        color: rgb(89, 89, 89);
+                        font-size: 28px;
+                        margin-left: 825px;
+                        margin-top: 15px;
+
+                      }
+                    
+                           .email-text{
+                            position: absolute;
+                            left: 1200px;
+                            bottom: 60px;
+                            font-size: 12px;
+                             color: rgb(89, 89, 89);
+                           }
+                 
+                           
+       
+                           
+    .end{
+   
+        width: 100%;
+        height: 580px;
+        background-color: red;
+        position: relative;
+        /* top: 10px; */
+        text-align: center;
+        background-color: rgb(17, 17, 17);
+    } 
+    
+        .support-end{
+            text-align: left;
+            position: absolute;
+            top: 70px;
+            left: 580px;
+            font-size: 14px;
+            line-height: 30px;
+            color: rgb(89, 89, 89);
+        }
+     
+           
+          .privacy-end{
+            text-align: left;
+            position: absolute;
+            top: 70px;
+            left: 950px;
+            font-size: 14px;
+            line-height: 30px;
+            color: rgb(89, 89, 89);
+          }
+          .auto-text{
+            position: relative;
+            right: 450px;
+            top: 70px;
+            font-size: 14px;
+            font-weight: 900;
+          }
+
+
+
+
+          .region{
+            position: relative;
+            top: 370px;
+            right: 320px;
+            font-size: 13px;
+            font-weight: 600;
+            
+          }
+          .change{
+         position: relative;
+         left: 75px;
+         bottom: 40px;
+         font-size: 15px;
+         color: rgb(89, 89, 89);
+         font-weight: 400;
+          }
+
+          .hr-end{
+           
+            width: 950px;
+             position: relative;
+             top: 40px;
+             left: 700px;
+             border-color: rgb(89, 89, 89);
+          }
+
+
+
+          .end-logo{
+           position: absolute;
+           left: 220px;
+           bottom: 0px;
+          }
+
+          .bose-corproration-end{
+            font-size: 12px;
+            margin-top: 400px;
+            margin-right: 600px;
+            /* background-color: rgb(59, 236, 236); */
+            color: rgb(55, 55, 55);
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+          @media (max-width: 1200px){*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+            
+            }
+            
+            .main{
+                border: none;
+                width: 100%;
+
+            }
+            
+            .nav-main{
+                
+            background-color:#1a1a1a;
+            width:100%;
+            height: 100px;
+            position: relative;
+            display: flex;
+            overflow: hidden;
+            margin: auto;
+            justify-content: space-evenly;
+            }
+            
+            .bose-logo{
+                display: none;
+                margin-bottom: 50px;
+            }
+            .fa-bars{
+                font-size: 45px;
+               margin-left: 10px;
+                
+            }
+            .menu{
+                display: inline-block;
+                font-size: 13px;
+                line-height: 10px;
+                margin-left: 30px;
+                margin-top: 30px;
+                font-weight: 500;
+            }
+            .bose-mobile-logo{
+                display: flex;
+                position: absolute;
+                margin-left: 40%;
+            }
+            
+            .sub-div-1 a{
+           display: none;
+            }
+            
+            .search{
+               display: none;
+            }
+            .input-search{
+              display: none;
+                
+            }
+            .fa-magnifying-glass{
+                color: aliceblue;
+
+            }
+            #responsive-mr{
+                position: absolute;
+                display: flex;
+                color: rgb(115, 115, 115);
+                font-size: 40px;
+                z-index: 1;
+                top: 30px;
+                right: 35px;
+                display: none;
+            }
+            .search-button{
+                display: none;
+            }
+            
+            
+            .support{
+                display: none;
+            }
+            .support-img{
+                display: none;
+            }
+            .stores{
+                display: none;
+            }
+            .fa-location-dot{
+                display: none;
+            }
+        
+
+/* nav------------------------------------------------------------------end--------------- */
+/* .open-plan-offices-main---------------------------------start---------------------------- */
+
+
+.open-plan-offices-main{
+    width: 100%;
+    height: 1100px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: aquamarine; */
+    display: flex;
+   justify-content: center;
+}
+.open-plan-offices-sub-1{
+    width: 98%;
+    height: 1100px;
+    background-color:rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.open-plan-offices-text{
+    display: flex;
+   
+  justify-content: center;
+    width: 73%;
+    height:250px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: azure; */
+    flex-direction: column;
+}
+.open-plan-offices-h1{
+    margin-top:50px;
+    font-size: 27px;
+   font-weight: 400;
+   text-align: center;
+}
+.open-plan-offices-h2{
+    font-weight: 300;
+    text-align: center;
+    margin-top: 17px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(68, 68, 68);
+}
+.open-plan-offices-img-div{
+    width:100%;
+    height: 470px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: aquamarine; */
+    overflow: hidden;
+}
+.open-plan-offices-img{
+    width: 100%;
+    object-fit: contain;
+}
+.if-you-text{
+    width: 97%;
+    height:300px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: blueviolet; */
+}
+.if-you-text-sub{
+    margin-top: 40px;
+        line-height: 25px;
+}
+p{padding: 10px;
+
+}
+
+/* .open-plan-offices-main---------------------------------end---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* of-course-main-----------------------------start----------------------------- */
+
+.of-course-main{
+    width: 100%;
+        height: 700px;
+        background-color:rgb(32, 32, 32);
+        /* background-color: bisque; */
+        display: flex;
+       justify-content: center;
+}
+.of-course-main-sub-1{
+    width: 98%;
+    height: 1100px;
+    background-color:rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.of-course-main-img-div{
+    width:100%;
+    height: 530px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: rgb(19, 146, 146); */
+    overflow: hidden;
+}
+.of-course-main-img{
+    width: 100%;
+    object-fit: contain;
+}
+.of-course-main-text{
+    width: 97%;
+    height:200px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: blue; */
+}
+.of-course-main-text-sub{
+    margin-top: 40px;
+    line-height: 25px;
+}
+
+/* of-course-main----------------------------end---------------------------- */
+
+
+/* .start-by-putting-main------------------------------------------------.start----------------- */
+
+.start-by-putting-main{
+    width: 100%;
+    height: 800px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: beige; */
+    display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   flex-wrap: wrap;
+   margin-top: 50px;
+}
+.start-by-putting-sub{
+    width: 95%;
+    height: 450px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: blue; */
+    display: flex;
+}
+.start-by-putting-img-text{
+    display: flex;
+       
+          width: 100%;
+          height: 450px;
+           background-color:rgb(32, 32, 32);
+           /* background-color: blueviolet; */
+}
+.start-by-putting-img{
+    background-color:rgb(32, 32, 32);
+    /* background-color: rgb(255, 3, 200); */
+    width:52.8%;
+      height: 500px;
+      overflow: hidden;
+}
+.by-putting-img{
+    width: 100%;
+    object-fit: contain;
+}
+.start-by-putting-text{
+    background-color:rgb(32, 32, 32);
+    /* background-color: chartreuse; */
+        width: 80%;
+          height: 500px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+}
+.start-by-putting-text-p{
+    line-height: 22px;
+        margin-left: 30px;
+}
+.start-by-putting-sub-2{
+    width: 84%;
+    height: 150px;
+    background-color:rgb(32, 32, 32);
+    line-height: 25px;
+   padding-left: 30px;
+   padding-top: 9px;
+   margin-left: 7%;
+   margin-top: 30px;
+}
+
+
+/* start-by-putting----------------------------------------end  ------------------------ */
+
+
+/* .share this  -------------------------------------start 0-00---------------------------------------/ */
+
+.share-this{
+    width:100%;
+    height: 200px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+.share-this-sub{
+    width: 84%;
+    height: 200px;
+    background-color:rgb(32, 32, 32);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.logos{
+    width: 100px;
+    height: 50px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: aqua; */
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.fa-facebook-f{
+    font-size: 25px;
+    display: flex;
+    position: relative;
+    right: 210px;
+    
+}
+.fa-twitter{
+    font-size: 25px;
+    position: relative;
+    right: 170px;
+    top: 15px;
+}
+.share-this-p{
+    position: absolute;
+    display: flex;
+    left: 8%;
+   margin-top: 90px;
+   font-size: 13px;
+   font-style: italic;
+}
+
+/* .share this  -------------------------------------end 0-00---------------------------------------/ */
+
+
+
+.related-products{
+    width: 100%;
+    height:580px ;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+}
+.related-products-sub{
+    width:70%;
+    height: 580px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.related-h{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    letter-spacing: 7px;
+    font-weight: 400;
+    font-size: 25px;
+}
+.products{
+    
+    width: 100%;
+    height: 350px;
+     background-color: rgb(41, 41, 41);
+    display: flex;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 800;
+    justify-content: space-between;
+    
+}
+.product-1{
+    width: 230px;
+        height: 300px;
+        background-color: rgb(41, 41, 41);
+        
+}
+.product-2{
+    width: 250px;
+        height: 300px;
+        background-color: rgb(41, 41, 41);
+      margin-left: 4%;
+}
+.product-img{
+    width: 260px;
+    height: 270px;   
+    background-color:rgb(32, 32, 32);
+    object-fit: cover;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.img-product{
+    width: 150px;
+}
+.para-2{
+    font-weight: 400;
+    margin-top: -20px;
+    color: rgb(63, 63, 63);
+}
+
+
+/* .related-products-----------------------------------------end--------------------------- */
+
+.related-stories{
+    width: 100%;
+    height:600px ;
+    background-color:rgb(32, 32, 32);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.related-stories-sub{
+    width: 95%;
+    height: 400px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.related-stories-h{
+   position: relative;
+   bottom: 30px;
+   letter-spacing: 7px;
+   font-weight: 400;
+}
+.related-stories-container{
+    width:48%;
+    height: 420px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.for-img{
+    width: 100%;
+    height: 270px;
+    background-color:rgb(32, 32, 32);
+    overflow: hidden;
+    
+}
+.related-stories-p{
+    font-size: 23px;
+    font-weight: 800;
+    font-family: BoseText, Verdana, sans-serif;
+}
+.explore-button{
+    width: 143px;
+            height: 38px;
+            border-radius: 50px;
+            border: 1px solid gray;
+            color: rgb(223, 223, 223);
+            background-color:#1a1a1a;
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-size: 15px;
+            margin-top: 20px;        
+}
+
+
+/* related-stories............................................................end------------ */
+
+.are-boys-points{
+    width: 100%;
+    height:300px ;
+    background-color:rgb(32, 32, 32);
+    display: flex;
+    
+}
+.are-boys-points-sub{
+    width: 100%;
+    height:300px ;
+    background-color:rgb(32, 32, 32);
+}
+.fa-square-plus{
+    margin: 3px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+
+
+
+
+/* are-----------------end-------------------------------- */
+.fb-etc{
+    width: 100%;
+    height: 100px;
+   
+  position: relative;
+  top: 10PX;
+  padding: 20px;
+  background-color: rgb(27, 27, 27);
+}
+   
+
+             .fa-facebook-f{
+                color: rgb(89, 89, 89);
+                font-size: 27px;
+                margin-left: 220px;
+                margin-top: 18px;
+             }  
+               
+                  
+                  .fa-youtube{
+                    color: rgb(89, 89, 89);
+                    font-size: 27px;
+                    margin-left: 30px;
+                    margin-top: 18px;
+                  }
+                      
+                    
+                      .fa-envelope{
+                        color: rgb(89, 89, 89);
+                        font-size: 28px;
+                       right: 285px;
+                     
+                        position: absolute;
+
+                      }
+                    
+                           .email-text{
+                            position: absolute;
+                            left: 900px;
+                            bottom: 45px;
+                            font-size: 12px;
+                           }
+                 
+                           
+       
+                           
+    .end{
+   
+        width: 100%;
+        height: 580px;
+        /* background-color: red; */
+        position: relative;
+        top: 10PX;
+        text-align: center;
+        background-color: rgb(17, 17, 17);
+    } 
+    
+        .support-end{
+            text-align: left;
+            position: absolute;
+            top: 70px;
+            left: 500px;
+            font-size: 14px;
+            line-height: 30px;
+            color: rgb(89, 89, 89);
+        }
+     
+           
+          .privacy-end{
+            text-align: left;
+            position: absolute;
+            top: 70px;
+            left: 900px;
+            font-size: 14px;
+            line-height: 30px;
+            color: rgb(89, 89, 89);
+          }
+          .auto-text{
+            position: relative;
+            right: 450px;
+            top: 70px;
+            font-size: 14px;
+            font-weight: 900;
+          }
+
+
+
+
+          .region{
+            position: relative;
+            top: 390px;
+            right: 290px;
+            font-size: 13px;
+            font-weight: 600;
+            
+          }
+          .change{
+         position: relative;
+         left: 75px;
+         bottom: 38px;
+         font-size: 15px;
+         color: rgb(89, 89, 89);
+         font-weight: 400;
+          }
+
+          .hr-end{
+           
+            width: 950px;
+             position: relative;
+             top: 10px;
+             left: 600px;
+             border-color: rgb(89, 89, 89);
+          }
+
+
+
+          .end-logo{
+            position: absolute;
+            top:468px;
+            left: 100px;
+          }
+
+          .bose-corproration-end{
+            font-size: 12px;
+            margin-top: 420px;
+            margin-right: 600px;
+            color: rgb(89, 89, 89);
+            
+          }
+        
+}
+
+
+
+@media(max-width: 590px){  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+    }
+    
+    .main{
+        border: none;
+        width: 100%;
+
+    }
+    
+    .nav-main{
+        /* background-color: blueviolet; */
+    background-color:#1a1a1a;
+    width:100%;
+    height: 70px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    justify-content: space-evenly;
+    }
+    
+    .bose-logo{
+        display: none;
+        margin-bottom: 50px;
+    }
+    .fa-bars{
+        font-size: 25px;
+       margin-left: 10px;
+       margin-top: -10px;
+        
+    }
+    .menu{
+        display: inline-block;
+        font-size: 8px;
+        line-height: 10px;
+        margin-left: 30px;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+    .bose-mobile-logo{
+        display: flex;
+        position: absolute;
+        margin-left: 40%;
+        width: 100px;
+    }
+    
+    .sub-div-1 a{
+   display: none;
+    }
+    
+    .search{
+       display: none;
+    }
+    .input-search{
+      display: none;
+        
+    }
+    .fa-magnifying-glass{
+        color: aliceblue;
+            
+    }
+    #responsive-mr{
+        position: absolute;
+        display: flex;
+        color: rgb(115, 115, 115);
+        font-size: 20px;
+        z-index: 1;
+        top: 25px;
+        right: 35px;
+        display: none;
+    }
+    .search-button{
+        display: none;
+    }
+    
+    
+    .support{
+        display: none;
+    }
+    .support-img{
+        display: none;
+    }
+    .stores{
+        display: none;
+    }
+    .fa-location-dot{
+        display: none;
+    }
+
+
+    /* NAV-------------------------------------END[]]]]]]]====================------------- */
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .open-plan-offices-main---------------------------------start---------------------------- */
+
+
+.open-plan-offices-main{
+    width: 100%;
+    height: 1050px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: aqua; */
+    display: flex;
+   justify-content: center;
+}
+.open-plan-offices-sub-1{
+    width: 95%;
+    height: 1000px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: rgb(255, 111, 0); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.open-plan-offices-text{
+    display: flex;
+   
+    justify-content: center;
+      width: 90%;
+      height:250px;
+      background-color:rgb(32, 32, 32);
+      /* background-color: azure; */
+      flex-direction: column;
+}
+.open-plan-offices-h1{
+    margin-top:50px;
+    font-size: 27px;
+   font-weight: 400;
+   text-align: center;
+}
+.open-plan-offices-h2{
+    font-weight: 300;
+    text-align: center;
+    margin-top: 17px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(68, 68, 68);
+}
+.open-plan-offices-img-div{
+    width:100%;
+    height: 190px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: aquamarine; */
+    overflow: hidden;
+    z-index: 1;
+}
+.open-plan-offices-img{
+    width: 100%;
+    object-fit: contain;
+}
+.if-you-text{
+    width: 97%;
+    height:300px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: blueviolet; */
+}
+.if-you-text-sub{
+    margin-top: 40px;
+        line-height: 25px;
+}
+p{padding: 10px;
+
+}
+
+/* .open-plan-offices-main---------------------------------end---------------------------- */
+
+/* of-course-main-----------------------------start----------------------------- */
+
+.of-course-main{
+    width: 100%;
+        height: 400px;
+        background-color:rgb(32, 32, 32);
+        /* background-color: bisque; */
+        display: flex;
+       justify-content: center;
+}
+.of-course-main-sub-1{
+    width: 97%;
+    height:400px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: rgb(255, 0, 128); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.of-course-main-img-div{
+    width:100%;
+    height: 225px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: rgb(19, 146, 146); */
+    overflow: hidden;
+}
+.of-course-main-img{
+    width: 100%;
+    object-fit: contain;
+}
+.of-course-main-text{
+    width: 97%;
+    height:200px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: blue; */
+}
+.of-course-main-text-sub{
+    margin-top: 4px;
+    line-height: 25px;
+}
+
+/* of-course-main----------------------------end---------------------------- */
+
+
+/* .start-by-putting-main------------------------------------------------.start----------------- */
+
+.start-by-putting-main{
+    width: 100%;
+    height: 1800px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: beige; */
+    display: flex;
+   /* justify-content: center; */
+   /* align-items: center; */
+   flex-wrap: wrap;
+  
+}
+.start-by-putting-sub{
+    width: 97%;
+    height: 1500px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.start-by-putting-img-text{
+    display: flex;
+    flex-direction: column;
+       
+          width: 100%;
+          height: 1800px;
+           background-color:rgb(32, 32, 32);
+           /* background-color: blueviolet; */
+           
+}
+.start-by-putting-img{
+    background-color:rgb(32, 32, 32);
+    /* background-color: rgb(157, 3, 42); */
+    width:500px;
+      height: 500px;
+      overflow: hidden;
+}
+.by-putting-img{
+    width: 100%;
+    object-fit: contain;
+}
+.start-by-putting-text{
+    background-color:rgb(32, 32, 32);
+    /* background-color: chartreuse; */
+        width: 100%;
+          height: 1000px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          
+}
+.start-by-putting-text-p{
+    line-height: 22px;
+        margin-left: 10px;
+}
+.start-by-putting-sub-2{
+    width: 95%;
+    height: 250px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: chocolate; */
+    line-height: 25px;
+   padding-left: 10px;
+   padding-top: 10px;
+   margin-left: 0%;
+}
+
+
+/* start-by-putting----------------------------------------end  ------------------------ */
+
+
+/* .share this  -------------------------------------start 0-00---------------------------------------/ */
+
+.share-this{
+    width:100%;
+    height: 100px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 10px;
+    margin-top: 1px;
+}
+.share-this-sub{
+    width: 84%;
+    height: 100px;
+    background-color:rgb(32, 32, 32);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.logos{
+    width: 100px;
+    height: 50px;
+    background-color:rgb(32, 32, 32);
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    display: none;
+}
+.fa-facebook-f{
+    font-size: 25px;
+}
+.fa-twitter{
+    font-size: 25px;
+}
+.share-this-p{
+    position: absolute;
+    display: flex;
+    left: 8%;
+   margin-top: 90px;
+   font-size: 13px;
+   font-style: italic;
+}
+
+/* .share this  -------------------------------------end 0-00---------------------------------------/ */
+
+
+
+.related-products{
+    width: 100%;
+    height:1000px ;
+    background-color: rgb(41, 41, 41);
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+.related-products-sub{
+    width:90%;
+    height: 1000px;
+    background-color: rgb(41, 41, 41);
+    /* background-color: rgb(192, 12, 45); */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.related-h{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    letter-spacing: 7px;
+    font-weight: 400;
+    font-size: 25px;
+}
+.products{
+    
+    width: 100%;
+    height: 800px;
+     background-color: rgb(41, 41, 41);
+     /* background-color: bisque; */
+    display: flex;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 800;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.product-1{
+    width: 230px;
+        height: 300px;
+        background-color: rgb(41, 41, 41);
+        
+}
+.product-2{
+    width: 250px;
+        height: 300px;
+        background-color: rgb(41, 41, 41);
+      margin-top:35%;
+}
+.product-img{
+    width: 260px;
+    height: 270px;   
+    background-color:rgb(32, 32, 32);
+    object-fit: cover;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.img-product{
+    width: 150px;
+}
+.para-2{
+    font-weight: 400;
+    margin-top: -20px;
+    color: rgb(63, 63, 63);
+}
+
+
+/* .related-products-----------------------------------------end--------------------------- */
+
+.related-stories{
+    width: 100%;
+    height:600px ;
+    background-color:rgb(32, 32, 32);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.related-stories-sub{
+    width: 95%;
+    height: 400px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.related-stories-h{
+   position: relative;
+   bottom: 30px;
+   letter-spacing: 7px;
+   font-weight: 400;
+   font-size: 20px;
+}
+.related-stories-container{
+    width:100%;
+    height: 420px;
+    background-color:rgb(32, 32, 32);
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.for-img{
+    width: 100%;
+    height: 270px;
+    background-color:rgb(32, 32, 32);
+    overflow: hidden;
+    
+}
+.related-stories-p{
+    font-size: 13px;
+    font-weight: 800;
+    font-family: BoseText, Verdana, sans-serif;
+}
+.explore-button{
+    width: 143px;
+            height: 38px;
+            border-radius: 50px;
+            border: 1px solid gray;
+            color: rgb(223, 223, 223);
+            background-color:#1a1a1a;
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-size: 15px;
+            margin-top: 20px;        
+}
+
+
+/* related-stories............................................................end------------ */
+
+.are-boys-points{
+    width: 100%;
+    height:200px ;
+    background-color:rgb(32, 32, 32);
+    display: flex;
+    margin-top: 500px;
+    font-size: 12px;
+    
+}
+.are-boys-points-sub{
+    width: 100%;
+    height:200px ;
+    background-color:rgb(32, 32, 32);
+    text-align: left;
+}
+.fa-square-plus{
+    margin: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+
+/* are-----------------end-------------------------------- */
+.fb-etc{
+    width: 100%;
+    height: 150px;
+   
+  position: relative;
+  top: -20PX;
+  padding: 20px;
+  background-color: rgb(27, 27, 27);
+}
+   
+
+             .fa-facebook-f{
+                color: rgb(89, 89, 89);
+                font-size: 27px;
+                margin-left: 20px;
+                margin-top: 18px;
+             }  
+               
+                  
+                  .fa-youtube{
+                    color: rgb(89, 89, 89);
+                    font-size: 27px;
+                    margin-left: 50px;
+                    position: relative;
+                    bottom:45px;
+                  }
+                      
+                    
+                      .fa-envelope{
+                        color: rgb(89, 89, 89);
+                        font-size: 28px;
+                       right: 400px;
+                       top: 80px;
+                     
+                        position: absolute;
+
+                      }
+                    
+                           .email-text{
+                            position: absolute;
+                            left: 100px;
+                            bottom: 1px;
+                            font-size: 12px;
+                            top: 90px;
+                           }
+                 
+                           
+       
+                           
+    .end{
+   
+        width: 100%;
+        height: 990px;
+        /* background-color: red; */
+        position: relative;
+        top: 43PX;
+        text-align: center;
+        background-color: rgb(17, 17, 17);
+    } 
+    
+        .support-end{
+            text-align: left;
+            position: absolute;
+            top: 90px;
+            left: 15px;
+            font-size: 14px;
+            line-height: 30px;
+            color: rgb(89, 89, 89);
+            line-height: 40px;
+        }
+     
+           
+          .privacy-end{
+            text-align: left;
+            position: absolute;
+            top: 450px;
+            left: 15px;
+            font-size: 14px;
+            line-height: 30px;
+            color: rgb(89, 89, 89);
+            line-height: 40px;
+          }
+          .auto-text{
+            position: relative;
+            right: 130px;
+            top: 50px;
+            font-size: 14px;
+            font-weight: 900;
+          }
+
+
+
+
+          .region{
+            position: relative;
+            top: 790px;
+            right: 180px;
+            font-size: 13px;
+            font-weight: 600;
+            
+          }
+          .change{
+         position: relative;
+         left: 75px;
+         bottom: 18px;
+         font-size: 15px;
+         color: rgb(89, 89, 89);
+         font-weight: 400;
+          }
+
+          .hr-end{
+           
+            width: 950px;
+             position: relative;
+             top: 45px;
+             left: 20px;
+             border-color: rgb(89, 89, 89);
+          }
+
+
+
+          .end-logo{
+            position: absolute;
+            top:910px;
+            left: 20px;
+            width: 70px;
+          }
+
+          .bose-corproration-end{
+            font-size: 12px;
+            margin-top: 880px;
+            margin-right: 100px;
+            color: rgb(89, 89, 89);
+            
+          }.fb-etc{
+            width: 100%;
+            height: 150px;
+           
+          position: relative;
+          top: 43PX;
+          padding: 20px;
+          background-color: rgb(27, 27, 27);
+        }
+           
+        
+                     .fa-facebook-f{
+                        color: rgb(89, 89, 89);
+                        font-size: 27px;
+                        margin-left: 20px;
+                        margin-top: 18px;
+                     }  
+                       
+                          
+                         
+                                   
+               
+                                   
+            .end{
+           
+                width: 100%;
+                height: 990px;
+                /* background-color: red; */
+                position: relative;
+                top: 43PX;
+                text-align: center;
+                background-color: rgb(17, 17, 17);
+            } 
+            
+                .support-end{
+                    text-align: left;
+                    position: absolute;
+                    top: 90px;
+                    left: 15px;
+                    font-size: 14px;
+                    line-height: 30px;
+                    color: rgb(89, 89, 89);
+                    line-height: 40px;
+                }
+             
+                   
+                  .privacy-end{
+                    text-align: left;
+                    position: absolute;
+                    top: 450px;
+                    left: 15px;
+                    font-size: 14px;
+                    line-height: 30px;
+                    color: rgb(89, 89, 89);
+                    line-height: 40px;
+                  }
+                  .auto-text{
+                    position: relative;
+                    right: 130px;
+                    top: 50px;
+                    font-size: 14px;
+                    font-weight: 900;
+                  }
+        
+        
+        
+        
+                  .region{
+                    position: relative;
+                    top: 790px;
+                    right: 180px;
+                    font-size: 13px;
+                    font-weight: 600;
+                    
+                  }
+                  .change{
+                 position: relative;
+                 left: 75px;
+                 bottom: 40px;
+                 font-size: 15px;
+                 color: rgb(89, 89, 89);
+                 font-weight: 400;
+                  }
+        
+                  .hr-end{
+                   
+                    width: 950px;
+                     position: relative;
+                     top: 45px;
+                     left: 20px;
+                     border-color: rgb(89, 89, 89);
+                  }
+        
+        
+        
+                  .end-logo{
+                    position: absolute;
+                    top:910px;
+                    left: 20px;
+                    width: 70px;
+                  }
+        
+                  .bose-corproration-end{
+                    font-size: 12px;
+                    margin-top: 850px;
+                    margin-right: 100px;
+                    color: rgb(89, 89, 89);
+                    
+                  }
+
+
+}
+
+
+
+
+          
+

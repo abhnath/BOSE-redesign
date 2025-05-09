@@ -1,0 +1,1065 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+    }
+    
+    .main{
+        border: none;
+    }
+    
+    .nav-main{
+    background-color:#1a1a1a;
+    width:100%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    justify-content: space-evenly;
+    }
+    
+    .bose-logo{
+        width: 77px;
+        height: 77px;
+        position: relative;
+        right: 33px;
+    }
+    .menu{
+        position: absolute;
+        z-index: 1;
+        display: none;
+    }
+    .bose-mobile-logo{
+        position: absolute;
+        z-index: 1;
+        display: none;
+        
+    }
+    
+    .sub-div-1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 45px;
+    font-size: 13px; font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 60px;
+    right: 180px;
+    }
+    
+    .search{
+        width: 290px;
+        height: 25px;
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        position: relative;
+        right: 150px;
+        top: 15px;
+        border: none;
+        outline: none;
+        border-radius: 50px;
+        background-color: rgb(39, 39, 39);
+    }
+    .input-search{
+        width: 250px;
+        height: 25px;
+        position: relative;
+        left: 20px;
+        border: none;
+        background-color: rgb(39, 39, 39);
+        
+    }
+    .fa-magnifying-glass{
+        font-size: 18px;
+        color: black;
+       position: relative;
+       right: 10px;
+       background: none;
+    }
+    #responsive-mr{
+        display: none;
+    }
+    .search-button{
+        border:none;
+        background: none;
+    }
+    
+    
+    
+    
+    .support{
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 165px;
+        bottom: 10px;
+        font-size: 12px;
+    }
+    .support-img{
+    width: 22px;
+    margin-right: 5px;
+    display: flex;
+    }
+    .stores{
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 260px;
+        bottom: 30px;
+            font-size: 12px;
+            color: rgb(255, 255, 255);
+    }
+    .fa-location-dot{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
+/* nav------------------------------------------------------------------end--------------- */
+
+
+/* extention---------------------------------------------------------------------------------------------- */
+.nav-etention{
+    background-color:#1a1a1a;
+    width:100%;
+    height: 225px;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    display: none;
+}
+.sub-1{
+    margin-left: 260px;
+    width: 350px;
+    height: 225px;
+    background-color: #1a1a1a;
+    line-height: 25px;
+    padding-top: 30px;
+}.sub-2{
+    width: 350px;
+    height: 225px;
+    background-color: #1a1a1a;
+    line-height: 25px;
+    padding-top: 30px;
+}.sub-3{
+    width: 350px;
+    height: 225px;
+    background-color: #1a1a1a;
+    line-height: 25px;
+    padding-top: 30px;
+}
+.vertical{
+    border: none;
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 150px;
+    position: absolute;
+    left: 350px;
+    
+}
+.vertical-2{
+    border: none;
+    border-left: 2px solid rgb(247, 247, 247);
+    height: 150px;
+    position: absolute;
+    left: 700px;
+ 
+}
+.vertical-3{
+    border: none;
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 150px;
+    position: absolute;
+    left: 1050px;
+    
+}
+
+.x{
+    display: flex;
+    position: absolute;
+    
+}
+
+
+
+/* extention---------------------------------------------------------------------------------------------- */
+
+
+/* find your =---------------------------------------------------------start=------------------------- */
+
+.find-your{
+    width: 100%;
+    height: 508px;
+    background-color: rgb(186, 0, 0);
+    background-image: url(headphnes\ 1st\ pic.jpeg);
+    background-size: cover;
+}
+
+.find-your-text{
+    text-align: center;
+    position: relative;
+    top: 137px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: BoseText, Verdana, sans-serif;
+     line-height: 57px; 
+}
+.find-your-h1{
+    font-size: 33px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+}
+
+.find-your-h2{
+    font-size: 47px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+}
+.explore-button{
+    width: 143px;
+            height: 38px;
+            border-radius: 50px;
+            border: 1px solid gray;
+            color: rgb(223, 223, 223);
+            background-color:#1a1a1a;
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-size: 15px;
+}
+
+/* find your =------------------------------------------end-----=-------------------------- */
+
+
+/* types---------------------------------------------------------start/====------------------------ */
+
+.types-main{
+    width: 100%;
+    height: 980px;
+    background-color: (55, 60, 62);
+    margin-top: 282px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+   
+}
+.types-container{
+    width: 1255px;
+    height: 940px;
+    background-color:(55, 60, 62);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+.types-sub{
+    width: 403px;
+    height: 450px;
+    background-color: (55, 60, 62);
+    border: 2px solid gray;
+   
+}
+.types-sub-img{
+    width: 400px;
+}
+.types-text{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgb(224, 224, 224);
+}
+
+/* types---------------------------------------------------------end/====------------------------ */
+
+
+
+/* end-------------------------------------------------------------------start------------------------ */
+
+
+
+.fb-etc{
+    width: 100%;
+    height: 120px;
+   
+  position: relative;
+  top: 10px;
+  padding: 20px;
+  background-color: rgb(27, 27, 27);
+}
+   
+
+             .fa-facebook-f{
+                color: rgb(89, 89, 89);
+                font-size: 27px;
+                margin-left: 220px;
+                margin-top: 18px;
+             }  
+               
+                  
+                  .fa-youtube{
+                    color: rgb(89, 89, 89);
+                    font-size: 27px;
+                    margin-left: 30px;
+                    margin-top: 18px;
+                  }
+                      
+                    
+                      .fa-envelope{
+                        color: rgb(89, 89, 89);
+                        font-size: 28px;
+                        margin-left: 825px;
+                        margin-top: 15px;
+
+                      }
+                    
+                           .email-text{
+                            position: absolute;
+                            left: 1200px;
+                            bottom: 60px;
+                            font-size: 12px;
+                             color: rgb(89, 89, 89);
+                           }
+                 
+                           
+       
+                           
+    .end{
+   
+        width: 100%;
+        height: 580px;
+        background-color: red;
+        position: relative;
+        /* top: 10px; */
+        text-align: center;
+        background-color: rgb(17, 17, 17);
+    } 
+    
+        .support-end{
+            text-align: left;
+            position: absolute;
+            top: 70px;
+            left: 580px;
+            font-size: 14px;
+            line-height: 30px;
+            color: rgb(89, 89, 89);
+        }
+     
+           
+          .privacy-end{
+            text-align: left;
+            position: absolute;
+            top: 70px;
+            left: 950px;
+            font-size: 14px;
+            line-height: 30px;
+            color: rgb(89, 89, 89);
+          }
+          .auto-text{
+            position: relative;
+            right: 450px;
+            top: 70px;
+            font-size: 14px;
+            font-weight: 900;
+          }
+
+
+
+
+          .region{
+            position: relative;
+            top: 400px;
+            right: 320px;
+            font-size: 13px;
+            font-weight: 600;
+            
+          }
+          .change{
+         position: relative;
+         left: 75px;
+         bottom: 18px;
+         font-size: 15px;
+         color: rgb(89, 89, 89);
+         font-weight: 400;
+          }
+
+          .hr-end{
+           
+            width: 950px;
+             position: relative;
+             top: 40px;
+             left: 700px;
+             border-color: rgb(89, 89, 89);
+          }
+
+
+
+          .end-logo{
+           position: absolute;
+           left: 220px;
+           bottom: 0px;
+          }
+
+          .bose-corproration-end{
+            font-size: 12px;
+            margin-top: 470px;
+            margin-right: 600px;
+            /* background-color: rgb(10, 11, 11); */
+            color: rgb(55, 55, 55);
+          }
+          
+
+
+
+          @media (max-width: 1200px){ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+            
+            }
+            
+            .main{
+                border: none;
+                width: 100%;
+
+            }
+            
+            .nav-main{
+                
+            background-color:#1a1a1a;
+            width:100%;
+            height: 100px;
+            position: relative;
+            display: flex;
+            overflow: hidden;
+            margin: auto;
+            justify-content: space-evenly;
+            }
+            
+            .bose-logo{
+                display: none;
+                margin-bottom: 50px;
+            }
+            .fa-bars{
+                font-size: 45px;
+               
+                
+            }
+            .menu{
+                display: inline-block;
+                font-size: 13px;
+                line-height: 10px;
+                margin-left: 30px;
+                margin-top: 30px;
+                font-weight: 500;
+            }
+            .bose-mobile-logo{
+                display: flex;
+                position: absolute;
+                margin-left: 40%;
+            }
+            
+            .sub-div-1 a{
+           display: none;
+            }
+            
+            .search{
+               display: none;
+            }
+            .input-search{
+              display: none;
+                
+            }
+            .fa-magnifying-glass{
+                color: aliceblue;
+
+            }
+            #responsive-mr{
+                position: absolute;
+                display: flex;
+                color: rgb(115, 115, 115);
+                font-size: 40px;
+                z-index: 1;
+                top: 30px;
+                right: 35px;
+                display: none;
+            }
+            .search-button{
+                display: none;
+            }
+            
+            
+            .support{
+                display: none;
+            }
+            .support-img{
+                display: none;
+            }
+            .stores{
+                display: none;
+            }
+            .fa-location-dot{
+                display: none;
+            }
+        
+
+/* nav------------------------------------------------------------------end--------------- */
+            
+        
+/* find your =---------------------------------------------------------start=------------------------- */
+
+.find-your{
+    width: 100%;
+    height: 390px;
+    background-color: rgb(186, 0, 0);
+    background-image: url(headphnes\ 1st\ pic.jpeg);
+    background-size: cover;
+}
+
+.find-your-text{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: BoseText, Verdana, sans-serif;
+     line-height: 45px; 
+}
+.find-your-h1{
+    font-size: 23px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+}
+
+.find-your-h2{
+    font-size: 27px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    
+}
+.explore-button{
+    width: 143px;
+            height: 38px;
+            border-radius: 50px;
+            border: 1px solid gray;
+            color: rgb(223, 223, 223);
+            background-color:#1a1a1a;
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-size: 15px;
+}
+
+/* find your =------------------------------------------end-----=-------------------------- */
+
+      
+/* types---------------------------------------------------------start/====------------------------ */
+
+.types-main{
+    width: 100%;
+    height: 2000px;
+    background-color: (55, 60, 62);
+    margin-top: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+   justify-content: space-around;
+}
+.types-container{
+    width: 1255px;
+    height:1600px;
+    background-color:(55, 60, 62);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 1px;
+
+}
+.types-sub{
+    width: 575px;
+    height: 610px;
+    background-color: (55, 60, 62);
+    border: 2px solid gray;
+    overflow: hidden;
+   margin-top: 20px;
+}
+.types-sub-img{
+    width: 575px;
+}
+.types-text{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: rgb(224, 224, 224);
+}
+
+/* types---------------------------------------------------------end/====------------------------ */
+
+.fb-etc{
+    width: 100%;
+    height: 100px;
+   
+  position: relative;
+  top: 100PX;
+  padding: 20px;
+  background-color: rgb(27, 27, 27);
+}
+   
+
+             .fa-facebook-f{
+                color: rgb(89, 89, 89);
+                font-size: 27px;
+                margin-left: 220px;
+                margin-top: 18px;
+             }  
+               
+                  
+                  .fa-youtube{
+                    color: rgb(89, 89, 89);
+                    font-size: 27px;
+                    margin-left: 30px;
+                    margin-top: 18px;
+                  }
+                      
+                    
+                      .fa-envelope{
+                        color: rgb(89, 89, 89);
+                        font-size: 28px;
+                       right: 285px;
+                     
+                        position: absolute;
+
+                      }
+                    
+                           .email-text{
+                            position: absolute;
+                            left: 900px;
+                            bottom: 45px;
+                            font-size: 12px;
+                           }
+                 
+                           
+       
+                           
+    .end{
+   
+        width: 100%;
+        height: 580px;
+        /* background-color: red; */
+        position: relative;
+        top: 100PX;
+        text-align: center;
+        background-color: rgb(17, 17, 17);
+    } 
+    
+        .support-end{
+            text-align: left;
+            position: absolute;
+            top: 70px;
+            left: 500px;
+            font-size: 14px;
+            line-height: 30px;
+            color: rgb(89, 89, 89);
+        }
+     
+           
+          .privacy-end{
+            text-align: left;
+            position: absolute;
+            top: 70px;
+            left: 900px;
+            font-size: 14px;
+            line-height: 30px;
+            color: rgb(89, 89, 89);
+          }
+          .auto-text{
+            position: relative;
+            right: 450px;
+            top: 70px;
+            font-size: 14px;
+            font-weight: 900;
+          }
+
+
+
+
+          .region{
+            position: relative;
+            top: 390px;
+            right: 320px;
+            font-size: 13px;
+            font-weight: 600;
+            
+          }
+          .change{
+         position: relative;
+         left: 75px;
+         bottom: 18px;
+         font-size: 15px;
+         color: rgb(89, 89, 89);
+         font-weight: 400;
+          }
+
+          .hr-end{
+           
+            width: 950px;
+             position: relative;
+             top: 45px;
+             left: 700px;
+             border-color: rgb(89, 89, 89);
+          }
+
+
+
+          .end-logo{
+            position: absolute;
+            top:468px;
+            left: 220px;
+          }
+
+          .bose-corproration-end{
+            font-size: 12px;
+            margin-top: 455px;
+            margin-right: 300px;
+            color: rgb(89, 89, 89);
+            
+          }
+        }
+
+
+
+        @media(max-width: 590px){  *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+            
+            }
+            
+            .main{
+                border: none;
+                width: 100%;
+
+            }
+            
+            .nav-main{
+                /* background-color: blueviolet; */
+            background-color:#1a1a1a;
+            width:100%;
+            height: 70px;
+            position: relative;
+            display: flex;
+            overflow: hidden;
+            margin: auto;
+            justify-content: space-evenly;
+            }
+            
+            .bose-logo{
+                display: none;
+                margin-bottom: 50px;
+            }
+            .fa-bars{
+                font-size: 25px;
+               
+                
+            }
+            .menu{
+                display: inline-block;
+                font-size: 8px;
+                line-height: 10px;
+                margin-left: 30px;
+                margin-top: 20px;
+                font-weight: 500;
+            }
+            .bose-mobile-logo{
+                display: flex;
+                position: absolute;
+                margin-left: 40%;
+                width: 100px;
+            }
+            
+            .sub-div-1 a{
+           display: none;
+            }
+            
+            .search{
+               display: none;
+            }
+            .input-search{
+              display: none;
+                
+            }
+            .fa-magnifying-glass{
+                color: aliceblue;
+                    
+            }
+            #responsive-mr{
+                position: absolute;
+                display: flex;
+                color: rgb(115, 115, 115);
+                font-size: 20px;
+                z-index: 1;
+                top: 25px;
+                right: 35px;
+                display: none;
+            }
+            .search-button{
+                display: none;
+            }
+            
+            
+            .support{
+                display: none;
+            }
+            .support-img{
+                display: none;
+            }
+            .stores{
+                display: none;
+            }
+            .fa-location-dot{
+                display: none;
+            }
+        
+        
+            /* NAV-------------------------------------END[]]]]]]]====================------------- */
+            
+        
+/* find your =---------------------------------------------------------start=------------------------- */
+
+.find-your{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(186, 0, 0);
+    background-image: url(headphnes\ 1st\ pic.jpeg);
+   background-position: right;
+    
+}
+
+.find-your-text{
+    background-color: #101010;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: BoseText, Verdana, sans-serif;
+     line-height: 40px; 
+}
+.find-your-h1{
+    font-size: 23px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+}
+
+.find-your-h2{
+    font-size: 27px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    
+}
+.explore-button{
+    width: 143px;
+            height: 38px;
+            border-radius: 50px;
+            border: 1px solid gray;
+            color: rgb(223, 223, 223);
+            background-color:#1a1a1a;
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-size: 15px;
+            margin-bottom: 10px;
+}
+
+/* find your =------------------------------------------end-----=-------------------------- */
+
+      
+/* types---------------------------------------------------------start/====------------------------ */
+
+.types-main{
+    width: 100%;
+    height: 1000px;
+    background-color: (55, 60, 62);
+    margin-top: 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+   justify-content: space-around;
+}
+.types-container{
+    width: 100%;
+    height:600px;
+    background-color:(55, 60, 62);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 1px;
+
+}
+.types-sub{
+    width: 220px;
+    height: 250px;
+    background-color: (55, 60, 62);
+    border: 2px solid gray;
+    overflow: hidden;
+   margin-top: 20px;
+}
+.types-sub-img{
+    width: 220px;
+}
+.types-text{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: rgb(224, 224, 224);
+}
+
+/* types---------------------------------------------------------end/====------------------------ */
+
+.fb-etc{
+                width: 100%;
+                height: 150px;
+               
+              position: relative;
+              top: 43PX;
+              padding: 20px;
+              background-color: rgb(27, 27, 27);
+            }
+               
+            
+                         .fa-facebook-f{
+                            color: rgb(89, 89, 89);
+                            font-size: 27px;
+                            margin-left: 20px;
+                            margin-top: 18px;
+                         }  
+                           
+                              
+                              .fa-youtube{
+                                color: rgb(89, 89, 89);
+                                font-size: 27px;
+                                margin-left: 30px;
+                                margin-top: 18px;
+                              }
+                                  
+                                
+                                  .fa-envelope{
+                                    color: rgb(89, 89, 89);
+                                    font-size: 28px;
+                                   right: 400px;
+                                   top: 80px;
+                                 
+                                    position: absolute;
+            
+                                  }
+                                
+                                       .email-text{
+                                        position: absolute;
+                                        left: 100px;
+                                        bottom: 45px;
+                                        font-size: 12px;
+                                        top: 100px;
+                                       }
+                             
+                                       
+                   
+                                       
+                .end{
+               
+                    width: 100%;
+                    height: 990px;
+                    /* background-color: red; */
+                    position: relative;
+                    top: 43PX;
+                    text-align: center;
+                    background-color: rgb(17, 17, 17);
+                } 
+                
+                    .support-end{
+                        text-align: left;
+                        position: absolute;
+                        top: 90px;
+                        left: 15px;
+                        font-size: 14px;
+                        line-height: 30px;
+                        color: rgb(89, 89, 89);
+                        line-height: 40px;
+                    }
+                 
+                       
+                      .privacy-end{
+                        text-align: left;
+                        position: absolute;
+                        top: 450px;
+                        left: 15px;
+                        font-size: 14px;
+                        line-height: 30px;
+                        color: rgb(89, 89, 89);
+                        line-height: 40px;
+                      }
+                      .auto-text{
+                        position: relative;
+                        right: 130px;
+                        top: 50px;
+                        font-size: 14px;
+                        font-weight: 900;
+                      }
+            
+            
+            
+            
+                      .region{
+                        position: relative;
+                        top: 790px;
+                        right: 180px;
+                        font-size: 13px;
+                        font-weight: 600;
+                        
+                      }
+                      .change{
+                     position: relative;
+                     left: 75px;
+                     bottom: 18px;
+                     font-size: 15px;
+                     color: rgb(89, 89, 89);
+                     font-weight: 400;
+                      }
+            
+                      .hr-end{
+                       
+                        width: 950px;
+                         position: relative;
+                         top: 45px;
+                         left: 20px;
+                         border-color: rgb(89, 89, 89);
+                      }
+            
+            
+            
+                      .end-logo{
+                        position: absolute;
+                        top:910px;
+                        left: 20px;
+                        width: 70px;
+                      }
+            
+                      .bose-corproration-end{
+                        font-size: 12px;
+                        margin-top: 880px;
+                        margin-right: 100px;
+                        color: rgb(89, 89, 89);
+                        
+                      }
+        }

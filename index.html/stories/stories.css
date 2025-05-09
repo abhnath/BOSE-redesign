@@ -1,0 +1,1372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+    }
+    
+    .main{
+        border: none;
+    }
+    
+    .nav-main{
+    background-color:#1a1a1a;
+    width:100%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    justify-content: space-evenly;
+    }
+    
+    .bose-logo{
+        width: 77px;
+        height: 77px;
+        position: relative;
+        right: 33px;
+    }
+    
+    .sub-div-1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 45px;
+    font-size: 13px; font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 60px;
+    right: 180px;
+    }
+    #responsive-mr{
+        display: none;
+    }
+    .search{
+        width: 290px;
+        height: 25px;
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        position: relative;
+        right: 150px;
+        top: 15px;
+        border: none;
+        outline: none;
+        border-radius: 50px;
+        background-color: rgb(39, 39, 39);
+    }
+    .input-search{
+        width: 250px;
+        height: 25px;
+        position: relative;
+        left: 20px;
+        border: none;
+        background-color: rgb(39, 39, 39);
+        
+    }
+    .menu{
+        position: absolute;
+        z-index: 1;
+        display: none;
+    }
+    .bose-mobile-logo{
+        position: absolute;
+        z-index: 1;
+        display: none;
+        
+    }
+    .fa-magnifying-glass{
+        font-size: 18px;
+        color: black;
+       position: relative;
+       right: 10px;
+       background: none;
+    }
+    .search-button{
+        border:none;
+        background: none;
+    }
+    
+    
+    .support{
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 165px;
+        bottom: 10px;
+        font-size: 12px;
+    }
+    .support-img{
+    width: 22px;
+    margin-right: 5px;
+    display: flex;
+    }
+    .stores{
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 260px;
+        bottom: 30px;
+            font-size: 12px;
+            color: rgb(255, 255, 255);
+    }
+    .fa-location-dot{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
+
+    /* NAV-------------------------------------END[]]]]]]]====================------------- */
+    
+/* extention---------------------------------------------------------------------------------------------- */
+.nav-etention{
+    background-color:#1a1a1a;
+    width:100%;
+    height: 225px;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    display: none;
+}
+.sub-1{
+    margin-left: 260px;
+    width: 350px;
+    height: 225px;
+    background-color: #1a1a1a;
+    line-height: 25px;
+    padding-top: 30px;
+}.sub-2{
+    width: 350px;
+    height: 225px;
+    background-color: #1a1a1a;
+    line-height: 25px;
+    padding-top: 30px;
+}.sub-3{
+    width: 350px;
+    height: 225px;
+    background-color: #1a1a1a;
+    line-height: 25px;
+    padding-top: 30px;
+}
+.vertical{
+    border: none;
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 150px;
+    position: absolute;
+    left: 350px;
+    
+}
+.vertical-2{
+    border: none;
+    border-left: 2px solid rgb(247, 247, 247);
+    height: 150px;
+    position: absolute;
+    left: 700px;
+ 
+}
+.vertical-3{
+    border: none;
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 150px;
+    position: absolute;
+    left: 1050px;
+    
+}
+
+.x{
+    display: flex;
+    position: absolute;
+    
+}
+
+
+
+/* extention---------------------------------------------------------------------------------------------- */
+
+
+    /* BOSE STORIES -------------------------------------START=------------------------------ */
+
+    .bose-stories-main{
+        width: 100%;
+        height: 285PX;
+        background-color:rgb(32, 32, 32);
+        text-align: center;
+        line-height: 50PX;
+    }
+
+    .bose-stories-text{
+        font-size: 45px;
+        font-weight: 800;
+        position: relative;
+        top: 48px;
+    }
+    .bose-stories-text-2{
+        font-size: 24px;
+        margin-top: 70px;
+        font-family: BoseText, Verdana, sans-serif;
+        
+    }
+
+    .a-div{
+        width: 875px;
+        margin-left: 340px;
+        margin-top: 40px;
+        background-color:rgb(30, 30, 30);
+        display: flex;
+       justify-content: space-around;
+    }
+    .a-s{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+
+    /* bose---------stories--------------------------------------------------end---------------------- */
+
+
+    /* noice-blocking-main8=-----------------------------------start-=----------------------------------- */
+
+    .noice-blocking-main{
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+        background-color: rgb(41, 41, 41);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        color: rgb(216, 216, 216);
+      
+    }
+    .noice-blocking-container{
+        width: 1255px;
+        height: 410px;
+        background-color: (41, 41, 41);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-between;
+        
+        
+    }
+    .noice-blocking-sub{
+        width: 410px;
+        height: 410px;
+        background-color: rgb(32, 32, 32);
+        cursor: pointer;
+        overflow: hidden;
+       
+        
+    }
+    .to-hover{
+        width: 410px;
+        height: 205px;
+        background-color: rgb(166, 153, 178);
+        overflow: hidden;
+    }
+    .for-img{
+        width: 410px;
+        height: 205px;
+        transition: all .2s;
+    }
+    .for-img:hover{
+        transform: scale(1.2);
+    }
+
+    .b1{
+        width: 90px;
+        height: 22px;
+        font-size: 10px;
+        position: relative;
+        right: 110px; bottom: 3px;
+        background-color: rgb(34, 34, 34);
+        border: 1px solid gray;
+    }
+               .b2
+               {
+                width: 60px;
+                height: 22px;
+                font-size: 10px;
+                position: relative;
+                right: 95px; bottom: 3px;
+                background-color: rgb(34, 34, 34);
+                border: 1px solid gray;
+
+               }
+               .b1-headphones{
+                width: 90px;
+                height: 22px;
+                font-size: 10px;
+                position: relative;
+                right:90px; bottom: 3px;
+                background-color: rgb(34, 34, 34);
+                border: 1px solid gray;
+               }
+               .b-tips{ width: 90px;
+                height: 22px;
+                font-size: 10px;
+                position: relative;
+                right: 70px; bottom: 3px;
+                background-color: rgb(34, 34, 34);
+                border: 1px solid gray;
+            }
+
+               .noise-text{
+                line-height: 26px; 
+                text-align: left; 
+                margin-left: 20px; margin-top: 15px;
+                font-size: 25px; font-weight: 1000; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+               }
+
+
+                .date{
+                    display: flex;
+                    margin-top: 32px; margin-left: 20px; 
+                    font-size: 13px;
+                    
+                    color: rgb(163, 155, 142);
+                }     .november{
+                    position: relative;
+                    left: 10px;
+                    bottom: 17px;
+                }
+
+
+                .time{
+                    position: relative;
+                    bottom: 65px;
+                    left: 93px;
+                    font-size: 13px;
+                   color: rgb(163, 155, 142);
+                }                .minutes{
+                    position: relative;
+                    bottom: 50px;
+                    left: 43px;
+                }
+                .fa-clock{
+                    font-size: 16px;
+                }
+            
+
+ /* noice-blocking-main8=-----------------------------------end-=----------------------------------- */
+
+
+
+ /* a-time-for-main------------------------------------------------------------start----------- */
+
+
+ .a-time-for-main{
+    width: 100%;
+    height: 490px;
+    position: relative;
+    top: 470px;
+    background-color:rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(216, 216, 216);
+
+ }
+ .a-time-for-container{
+    width: 1255px;
+    height: 480px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+ }
+ .a-time-for-content{
+    width: 618px;
+    height: 480px;
+    background-color:rgb(32, 32, 32);
+
+ }
+ .time-to-hover{
+    width: 618px;
+    height: 309px;
+    background-color: rgb(166, 153, 178);
+    overflow: hidden;
+ }
+ .for-time-img{
+    width: 618px;
+    height: 309px;
+    transition: all .2s;
+ }
+ .for-time-img:hover{
+    transform: scale(1.2);
+ }
+              .b-health{
+                width: 65px;
+                height: 19px;
+                font-size: 10px;
+                position: relative;
+                left: 20px; top: 13px;
+                background-color: rgb(34, 34, 34);
+                border: 1px solid gray;
+              }
+              .b-2-headphones{
+                width: 90px;
+                height: 19px;
+                font-size: 10px;
+                position: relative;
+                left: 35px; top: 13px;
+                background-color: rgb(34, 34, 34);
+                border: 1px solid gray;
+              }
+              .a-time-text{
+                line-height: 26px; 
+                text-align: left; 
+                margin-left: 20px; margin-top: 40px;
+                font-size: 25px; font-weight: 1000; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              }
+              .august{
+                position: relative;
+                   left: 10px;
+                    
+              }
+              .a-time-time{
+                /* position: relative;
+                    bottom: 16px;
+                    left: 505px; */
+                    margin-left: 505px;
+                    margin-top: -15px;
+                    font-size: 13px;
+                   color: rgb(163, 155, 142);
+              }
+             
+              .six-minutes{
+                position: relative;
+                bottom: 15px;
+                left: 22px;
+              }
+
+              .b-tips-tricks{
+                width: 90px;
+                height: 19px;
+                font-size: 10px;
+                position: relative;
+                left: 20px; top: 13px;
+                background-color: rgb(34, 34, 34);
+                border: 1px solid gray;
+              }
+
+
+
+
+    /* audio bluetooth ----------------------------start------------------------------------- */
+
+
+    .audio-bluetooth-main{
+        width: 100%;
+        height: 450px;
+        position: relative;
+        top: 470px;
+        background-color: rgb(41, 41, 41);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        color: rgb(216, 216, 216);
+    }
+    .audio-bluetooth-container{
+        width: 1255px;
+        height: 410px;
+        background-color: (41, 41, 41);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .audio-bluetooth-sub{
+        width: 400px;
+        height: 410px;
+        background-color: rgb(32, 32, 32);
+        cursor: pointer;
+        overflow: hidden;
+    }
+    .audio-bluetooth-to-hover{
+        width: 410px;
+        height: 205px;
+        background-color: rgb(166, 153, 178);
+        overflow: hidden;
+    }
+    .audio-bluetooth-for-img{
+        width: 410px;
+        height: 205px;
+        transition: all .2s;
+    }
+    .audio-bluetooth-for-img:hover{
+        transform: scale(1.2);
+    }
+
+    .audio-bluetooth-b1{
+        width: 90px;
+        height: 20px;
+        font-size: 10px;
+        position: relative;
+        left: 22px;top: 13px;
+        background-color: rgb(34, 34, 34);
+        border: 1px solid gray;
+    }
+    .audio-bluetooth-b2{
+        width: 50px;
+        height: 20px;
+        font-size: 10px;
+        position: relative;
+        left: 35px;top: 13px;
+        background-color: rgb(34, 34, 34);
+        border: 1px solid gray;
+    }
+    .audio-bluetooth-text-div{
+        width: 410px;
+        height: 50px;
+       
+    }
+    .audio-bluetooth-text{
+        line-height: 26px; 
+        text-align: left; 
+        margin-left: 20px; margin-top: 40px;
+        /* position: relative;
+        left:20px ; top: 10px; */
+        font-size: 25px; font-weight: 1000; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        word-spacing: -3px;
+    }
+
+
+.b1-3ways{
+    width: 90px;
+    height: 20px;
+    font-size: 10px;
+    position: relative;
+    left: 22px;top: 13px;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid gray;
+}
+.b2-3ways{
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+    position: relative;
+    left: 38px;top: 13px;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid gray;
+}
+.buying-b1{
+    width: 90px;
+    height: 20px;
+    font-size: 10px;
+    position: relative;
+    left: 22px;top: 13px;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid gray;
+}
+.buying-b2{
+    width: 70px;
+    height: 20px;
+    font-size: 10px;
+    position: relative;
+    left: 35px;top: 13px;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid gray;
+}
+
+.audio-bluetooth-date{
+    display: flex;
+    position: relative;
+    top: 32px;left: 23px;
+    /* margin-top: 32px; margin-left: 20px;  */
+    font-size: 13px;
+}
+.audio-bluetooth-month{
+    position: relative;
+    left: 10px;
+  
+}
+.audio-bluetooth-time{
+    position: relative;
+    bottom: -18px;
+    left: 290px;
+    font-size: 13px;
+   color: rgb(163, 155, 142);
+}
+.audio-bluetooth-minutes{
+    position: relative;
+    bottom: 16px;
+    left: 25px;
+}
+
+/* audio bluetooth ---------------------------end---------------------------------- */
+
+
+/* Buying tips:----------------------start--------------------------------------- */
+
+.Buying-tips-main{
+    width: 100%;
+    height: 490px;
+    position: relative;
+    top: 470px;
+    background-color:rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(216, 216, 216);
+}
+.Buying-tips-container{
+    width: 1255px;
+    height: 480px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+.Buying-tips-content{
+    width: 618px;
+    height: 480px;
+    background-color:rgb(32, 32, 32);
+}
+.Buying-tips-hover{
+    width: 618px;
+    height: 309px;
+    background-color: rgb(166, 153, 178);
+    overflow: hidden;
+}
+.Buying-tips-img{
+    width: 618px;
+    height: 309px;
+    transition: all .2s;
+}
+.Buying-tips-img:hover{
+    transform: scale(1.2);
+}
+
+           .Buying-tips-b-1{
+            width: 90px;
+                height: 19px;
+                font-size: 10px;
+                position: relative;
+                left: 20px; top: 13px;
+                background-color: rgb(34, 34, 34);
+                border: 1px solid gray;
+           }
+
+           .Buying-tips-b-2{
+            width: 90px;
+            height: 19px;
+            font-size: 10px;
+            position: relative;
+            left: 35px; top: 13px;
+            background-color: rgb(34, 34, 34);
+            border: 1px solid gray;
+           }
+           .Buying-tips-b-3{
+            width: 70px;
+                height: 19px;
+                font-size: 10px;
+                position: relative;
+                left: 25px; top: 13px;
+                background-color: rgb(34, 34, 34);
+                border: 1px solid gray;
+           }
+
+           .Buying-tips-b-4{
+            width: 110px;
+            height: 19px;
+            font-size: 10px;
+            position: relative;
+            left: 40px; top: 13px;
+            background-color: rgb(34, 34, 34);
+            border: 1px solid gray;
+           }
+           .Buying-tips-text{
+            
+            line-height: 26px; 
+            text-align: left; 
+            margin-left: 20px; margin-top: 40px;
+            font-size: 25px; font-weight: 1000; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            word-spacing: -3px;
+           }
+
+
+           /* Buying tips:----------------------end--------------------------------------- */
+
+           /* Buying tips: Soundbars----------start------------------------------------------------ */
+
+
+           
+
+    .Buying-tips-Soundbars-main{
+        width: 100%;
+        height: 450px;
+        position: relative;
+        top: 470px;
+        background-color: rgb(41, 41, 41);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        color: rgb(216, 216, 216);
+    }
+    .Buying-tips-Soundbars-container{
+        width: 1255px;
+        height: 410px;
+        background-color: (41, 41, 41);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .Buying-tips-Soundbars-sub{
+        width: 400px;
+        height: 410px;
+        background-color: rgb(32, 32, 32);
+        cursor: pointer;
+        overflow: hidden;
+    }
+    .Buying-tips-Soundbars-hover{
+        width: 410px;
+        height: 205px;
+        background-color: rgb(166, 153, 178);
+        overflow: hidden;
+    }
+    .Buying-tips-Soundbars-img{
+        width: 410px;
+        height: 205px;
+        transition: all .2s;
+    }
+    .Buying-tips-Soundbars-img:hover{
+        transform: scale(1.2);
+    }
+
+    .Buying-tips-Soundbars-b1{
+        width: 90px;
+        height: 20px;
+        font-size: 10px;
+        position: relative;
+        left: 22px;top: 13px;
+        background-color: rgb(34, 34, 34);
+        border: 1px solid gray;
+    }
+    .Buying-tips-Soundbars-b2{
+        width: 70px;
+        height: 20px;
+        font-size: 10px;
+        position: relative;
+        left: 35px;top: 13px;
+        background-color: rgb(34, 34, 34);
+        border: 1px solid gray;
+    }
+    .Buying-tips-Soundbars-b3{
+        width: 70px;
+        height: 20px;
+        font-size: 10px;
+        position: relative;
+        left: 22px;top: 13px;
+        background-color: rgb(34, 34, 34);
+        border: 1px solid gray;
+    }
+    /* .Buying-tips-Soundbars-b4{
+        width: 60px;
+        height: 20px;
+        font-size: 10px;
+        position: relative;
+        left: 38px;top: 13px;
+        background-color: rgb(34, 34, 34);
+        border: 1px solid gray;
+    } */
+    .Buying-tips-Soundbars-b5{
+        width: 70px;
+        height: 20px;
+        font-size: 10px;
+        position: relative;
+        left: 22px;top: 13px;
+        background-color: rgb(34, 34, 34);
+        border: 1px solid gray;
+    }
+    .Buying-tips-Soundbars-b6{
+        width: 90px;
+        height: 20px;
+        font-size: 10px;
+        position: relative;
+        left: 35px;top: 13px;
+        background-color: rgb(34, 34, 34);
+        border: 1px solid gray;
+    }
+    
+    .Buying-tips-Soundbars-text-div{
+        width: 410px;
+        height: 50px;
+       
+    }
+    .Buying-tips-Soundbars-text{
+        line-height: 26px; 
+        text-align: left; 
+        margin-left: 20px; margin-top: 40px;
+        /* position: relative;
+        left:20px ; top: 10px; */
+        font-size: 25px; font-weight: 1000; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        word-spacing: -3px;
+    }
+
+
+
+.audio-bluetooth-date{
+    display: flex;
+    position: relative;
+    top: 32px;left: 23px;
+    /* margin-top: 32px; margin-left: 20px;  */
+    font-size: 13px;
+}
+.audio-bluetooth-month{
+    position: relative;
+    left: 10px;
+  
+}
+.audio-bluetooth-time{
+    position: relative;
+    bottom: -18px;
+    left: 290px;
+    font-size: 13px;
+   color: rgb(163, 155, 142);
+}
+.audio-bluetooth-minutes{
+    position: relative;
+    bottom: 16px;
+    left: 25px;
+}
+
+
+ /* Buying tips: Soundbars--------end---------------------------------------------- */
+
+ /* How noise cancelling----------------------------------------sstart--------------------------- */
+
+
+
+ 
+.How-noise-cancelling-main{
+    width: 100%;
+    height: 490px;
+    position: relative;
+    top: 485px;
+    background-color:rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(216, 216, 216);
+}
+.How-noise-cancelling-container{
+    width: 1255px;
+    height: 520px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+.How-noise-cancelling-content{
+    width: 618px;
+    height: 520px;
+    background-color:rgb(32, 32, 32);
+}
+.How-noise-cancelling-hover{
+    width: 618px;
+    height: 309px;
+    background-color: rgb(166, 153, 178);
+    overflow: hidden;
+}
+.How-noise-cancelling-img{
+    width: 618px;
+    height: 309px;
+    transition: all .2s;
+}
+.How-noise-cancelling-img:hover{
+    transform: scale(1.2);
+}
+
+           .How-noise-cancelling-b-1{
+            width: 90px;
+                height: 19px;
+                font-size: 10px;
+                position: relative;
+                left: 20px; top: 13px;
+                background-color: rgb(34, 34, 34);
+                border: 1px solid gray;
+           }
+
+           .How-noise-cancelling-b-2{
+            width: 60px;
+            height: 19px;
+            font-size: 10px;
+            position: relative;
+            left: 35px; top: 13px;
+            background-color: rgb(34, 34, 34);
+            border: 1px solid gray;
+           }
+           .How-noise-cancelling-b-3{
+            width: 90px;
+                height: 19px;
+                font-size: 10px;
+                position: relative;
+                left: 25px; top: 13px;
+                background-color: rgb(34, 34, 34);
+                border: 1px solid gray;
+           }
+
+           .How-noise-cancelling-b-4{
+            width: 90px;
+            height: 19px;
+            font-size: 10px;
+            position: relative;
+            left: 40px; top: 13px;
+            background-color: rgb(34, 34, 34);
+            border: 1px solid gray;
+           }
+           .How-noise-cancelling-text{
+            
+            line-height: 26px; 
+            text-align: left; 
+            margin-left: 20px; margin-top: 40px;
+            font-size: 25px; font-weight: 1000; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            word-spacing: -3px;
+           }
+
+
+ /* How noise cancelling----------------------------------------end--------------------------- */
+
+
+/* alexa---------------------------------------------------start--------------------------------- */
+
+.Alexa-what-main{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    top: 470px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(216, 216, 216);
+}
+.Alexa-what-container{
+    width: 1255px;
+    height: 410px;
+    background-color: (41, 41, 41);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+.Alexa-what-sub{
+    width: 400px;
+    height: 410px;
+    background-color: rgb(32, 32, 32);
+    cursor: pointer;
+    overflow: hidden;
+}
+.Alexa-what-hover{
+    width: 410px;
+    height: 205px;
+    background-color: rgb(166, 153, 178);
+    overflow: hidden;
+}
+.Alexa-what-img{
+    width: 410px;
+    height: 205px;
+    transition: all .2s;
+}
+.Alexa-what-img:hover{
+    transform: scale(1.2);
+}
+
+.Alexa-what-b1{
+    width: 110px;
+    height: 20px;
+    font-size: 10px;
+    position: relative;
+    left: 22px;top: 13px;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid gray;
+}
+.Alexa-what-b2{
+    width: 90px;
+    height: 20px;
+    font-size: 10px;
+    position: relative;
+    left: 35px;top: 13px;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid gray;
+}
+.Alexa-what-b3{
+    width: 110px;
+    height: 20px;
+    font-size: 10px;
+    position: relative;
+    left: 22px;top: 13px;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid gray;
+}
+.Alexa-what-b4{
+    width: 90px;
+    height: 20px;
+    font-size: 10px;
+    position: relative;
+    left: 38px;top: 13px;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid gray;
+}
+.Alexa-what-b5{
+    width: 90px;
+    height: 20px;
+    font-size: 10px;
+    position: relative;
+    left: 22px;top: 13px;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid gray;
+}
+.Alexa-what-b6{
+    width: 70px;
+    height: 20px;
+    font-size: 10px;
+    position: relative;
+    left: 35px;top: 13px;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid gray;
+}
+
+.Alexa-what-text-div{
+    width: 410px;
+    height: 50px;
+   
+}
+.Alexa-what-text{
+    line-height: 26px; 
+    text-align: left; 
+    margin-left: 20px; margin-top: 40px;
+    /* position: relative;
+    left:20px ; top: 10px; */
+    font-size: 25px; font-weight: 1000; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: -3px;
+}
+
+
+
+/* alexa -----------------------------------------------end ----------------- */
+
+/* Dream + reach------------------------------------------start-------------------------- */
+
+.Dream-reach-main{
+    width: 100%;
+    height: 490px;
+    position: relative;
+    top: 450px;
+    background-color:rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(216, 216, 216);
+}
+.Dream-reach-container{
+    width: 1255px;
+    height: 490px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+.Dream-reach-content{
+    width: 618px;
+    height: 480px;
+    background-color:rgb(32, 32, 32);
+}
+.Dream-reach-hover{
+    width: 618px;
+    height: 309px;
+    background-color: rgb(166, 153, 178);
+    overflow: hidden;
+}
+.Dream-reach-img{
+    width: 618px;
+    height: 309px;
+    transition: all .2s;
+}
+.Dream-reach-img:hover{
+    transform: scale(1.2);
+}
+
+           .Dream-reach-b-1{
+            width: 50px;
+                height: 19px;
+                font-size: 10px;
+                position: relative;
+                left: 20px; top: 13px;
+                background-color: rgb(34, 34, 34);
+                border: 1px solid gray;
+           }
+
+           .Dream-reach-b-2{
+            width: 90px;
+            height: 19px;
+            font-size: 10px;
+            position: relative;
+            left: 35px; top: 13px;
+            background-color: rgb(34, 34, 34);
+            border: 1px solid gray;
+           }
+       
+           .Dream-reach-text{
+            
+            line-height: 26px; 
+            text-align: left; 
+            margin-left: 20px; margin-top: 40px;
+            font-size: 25px; font-weight: 1000; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            word-spacing: -3px;
+           }
+
+
+/* Dream + reach------------------------------------------end-------------------------- */
+
+
+.fb-etc{
+    width: 100%;
+    height: 120px;
+   
+  position: relative;
+  top: 450px;
+  padding: 20px;
+  background-color: rgb(27, 27, 27);
+}
+   
+
+             .fa-facebook-f{
+                color: rgb(89, 89, 89);
+                font-size: 27px;
+                margin-left: 220px;
+                margin-top: 18px;
+             }  
+               
+                  
+                  .fa-youtube{
+                    color: rgb(89, 89, 89);
+                    font-size: 27px;
+                    margin-left: 30px;
+                    margin-top: 18px;
+                  }
+                      
+                    
+                      .fa-envelope{
+                        color: rgb(89, 89, 89);
+                        font-size: 28px;
+                        margin-left: 825px;
+                        margin-top: 15px;
+
+                      }
+                    
+                           .email-text{
+                            position: absolute;
+                            left: 1200px;
+                            bottom: 60px;
+                            font-size: 12px;
+                             color: rgb(89, 89, 89);
+                           }
+                 
+                           
+       
+                           
+    .end{
+   
+        width: 100%;
+        height: 580px;
+        background-color: red;
+        position: relative;
+        top: 440px;
+        text-align: center;
+        background-color: rgb(17, 17, 17);
+    } 
+    
+        .support-end{
+            text-align: left;
+            position: absolute;
+            top: 70px;
+            left: 580px;
+            font-size: 14px;
+            line-height: 30px;
+            color: rgb(89, 89, 89);
+        }
+     
+           
+          .privacy-end{
+            text-align: left;
+            position: absolute;
+            top: 70px;
+            left: 950px;
+            font-size: 14px;
+            line-height: 30px;
+            color: rgb(89, 89, 89);
+          }
+          .auto-text{
+            position: relative;
+            right: 450px;
+            top: 70px;
+            font-size: 14px;
+            font-weight: 900;
+          }
+
+
+
+
+          .region{
+            position: relative;
+            top: 400px;
+            right: 320px;
+            font-size: 13px;
+            font-weight: 600;
+            
+          }
+          .change{
+         position: relative;
+         left: 75px;
+         bottom: 18px;
+         font-size: 15px;
+         color: rgb(89, 89, 89);
+         font-weight: 400;
+          }
+
+          .hr-end{
+           
+            width: 950px;
+             position: relative;
+             top: 40px;
+             left: 700px;
+             border-color: rgb(89, 89, 89);
+          }
+
+
+
+          .end-logo{
+           position: absolute;
+           left: 220px;
+           bottom: 0px;
+          }
+
+          .bose-corproration-end{
+            font-size: 12px;
+            margin-top: 470px;
+            margin-right: 600px;
+            background-color: rgb(10, 11, 11);
+            
+          }
+        
+
+
+           
+          @media (max-width: 1200px){*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+            
+            }
+            
+            .main{
+                border: none;
+                width: 100%;
+
+            }
+            
+            .nav-main{
+                
+            background-color:#1a1a1a;
+            width:100%;
+            height: 100px;
+            position: relative;
+            display: flex;
+            overflow: hidden;
+            margin: auto;
+            justify-content: space-evenly;
+            }
+            
+            .bose-logo{
+                display: none;
+                margin-bottom: 50px;
+            }
+            .fa-bars{
+                font-size: 45px;
+               
+                
+            }
+            .menu{
+                display: inline-block;
+                font-size: 13px;
+                line-height: 10px;
+                margin-left: 30px;
+                margin-top: 30px;
+                font-weight: 500;
+            }
+            .bose-mobile-logo{
+                display: flex;
+                position: absolute;
+                margin-left: 40%;
+            }
+            
+            .sub-div-1 a{
+           display: none;
+            }
+            
+            .search{
+               display: none;
+            }
+            .input-search{
+              display: none;
+                
+            }
+            .fa-magnifying-glass{
+                color: aliceblue;
+
+            }
+            #responsive-mr{
+                position: absolute;
+                display: flex;
+                color: rgb(115, 115, 115);
+                font-size: 40px;
+                z-index: 1;
+                top: 30px;
+                right: 35px;
+                display: none;
+            }
+            .search-button{
+                display: none;
+            }
+            
+            
+            .support{
+                display: none;
+            }
+            .support-img{
+                display: none;
+            }
+            .stores{
+                display: none;
+            }
+            .fa-location-dot{
+                display: none;
+            }}
+        
+
+/* nav------------------------------------------------------------------end--------------- */
+            /* BOSE STORIES -------------------------------------START=------------------------------ */
+           
